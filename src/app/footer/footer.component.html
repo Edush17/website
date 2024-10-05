@@ -1,1 +1,11 @@
-<p>footer works!</p>
+<div class="footer">
+    <div class="sub-footer-1" *ngIf="isVisible_1">
+        <p>{{text_footer_1}}</p>
+    </div>
+    <div class="sub-footer-2" *ngIf="isVisible_2">
+        <p>{{text_footer_2}}</p>
+    </div>
+    <div class="sub-footer-3" *ngIf="isVisible_3">
+        <p>{{text_footer_3}}</p>
+    </div>
+</div>
