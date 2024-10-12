@@ -8,10 +8,6 @@ import { ContattiComponent } from './contatti/contatti.component';
 const routes: Routes = [
   {
     path: '',
-    component: AppComponent
-  },
-  {
-    path: 'homepage',
     component: HomepageComponent,
   },
   {
