@@ -1,0 +1,24 @@
+{
+  "articoli": [
+    {
+      "titolo": "Titolo",
+      "immagine": "immagine",
+      "testo": "testo"
+    },
+    {
+      "titolo": "Titolo",
+      "immagine": "immagine",
+      "testo": "testo"
+    },
+    {
+        "titolo":"Titolo",
+        "immagine": "immagine",
+        "testo":"testo"
+    },
+    {
+        "titolo":"Titolo",
+        "immagine": "immagine",
+        "testo":"testo"
+    }
+  ]
+}

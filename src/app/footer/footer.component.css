@@ -1,16 +1,14 @@
-.footer
-{
-    position: absolute;
+.footer {
+    position: fixed;
     bottom: 0;
     left: 0;
     background-color: black;
-    min-height: 100px;
-    height: fit-content;
+    height: 100px;
     width: 100%;
-    align-items: stretch;
     display: flex;
     align-items: center;
 }
+
 
 .sub-footer-1,.sub-footer-2,.sub-footer-3
 {   
