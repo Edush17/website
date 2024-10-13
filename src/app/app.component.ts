@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   constructor(private dataService : BackendService){}
   ngOnInit(): void {
-    console.log(this.dataService.getArticoli())
+    
   }
 
   

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContattiComponent } from './contatti/contatti.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -18,11 +19,12 @@ import { HomepageComponent } from './homepage/homepage.component';
     HeaderComponent,
     ContattiComponent,
     BlogComponent,
-    HomepageComponent
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()

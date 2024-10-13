@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as articoli from '../database/articoli.json'
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -8,11 +8,15 @@ export class BackendService {
 
   
 
-  constructor() { }
-
-  getArticoli()
+  constructor(private http: HttpClient) 
   {
-    return articoli;
+
+  }
+
+
+  insertArticoli(url : string , body : {})
+  {
+    return this.http.post(url,body)
   }
 
 
